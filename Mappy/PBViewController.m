@@ -9,7 +9,8 @@
 #import "PBViewController.h"
 
 @interface PBViewController ()
-
+@property (nonatomic, strong) RFduino *rfduino;
+@property (nonatomic, strong) RFduinoManager *manager;
 @end
 
 @implementation PBViewController
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +27,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
 
 @end

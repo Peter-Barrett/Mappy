@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RFduino.h>
 
-@interface PBViewController : UIViewController
+@interface PBViewController : UIViewController <RFduinoDelegate>
 
 @end

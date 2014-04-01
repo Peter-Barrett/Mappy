@@ -1,0 +1,10 @@
+PODS:
+  - RFduino-library (1.0.0)
+
+DEPENDENCIES:
+  - RFduino-library (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  RFduino-library: 5e7273998324973161f4c52b55897c6064ae4cf9
+
+COCOAPODS: 0.31.1
